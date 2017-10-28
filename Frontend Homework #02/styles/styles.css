@@ -2,6 +2,54 @@ body {
 	width: 2551px;
 	background-color: #fff;
 	font: 35px "Century Gothic", Helvetica, Arial, sans-serif;
+	color: rgb(66,66,67);
 	margin: 0;
 	padding: 0;
+}
+
+.wrapper  {
+	margin: 200px 145px 0 145px;
+}
+
+h1 {
+	font-size: 91px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.my-data {
+	font-size: 31px;
+	color: rgba(66,66,67,0.5);
+	margin-top: 55px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	border-right: 5px solid rgba(66,66,67,0.5);
+	padding: 0 20px;
+}
+
+li:last-child{
+	border-right: none;
+}
+
+li:first-child{
+	padding-left: 0;
+}
+
+main {
+	margin: 190px 0 120px 0;
 }
