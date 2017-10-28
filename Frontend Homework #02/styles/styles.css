@@ -137,6 +137,7 @@ article h3 {
 
 section {
 	margin: 50px 0;
+	
 }
 
 .about-me {
@@ -149,23 +150,27 @@ span {
 	font-weight: bold;
 }
 
+.edu {
+	margin-top: 80px;
+}
+
 .edu-date {
 	display: inline-block;
-	float: left;
+	vertical-align: top;
 	width: 370px;
 	font-weight: bold;
 	color:  #808183;
+	margin: 0;
 }
 
-.information {
+.edu-information {
 	display: inline-block;
-	float: right;
+	margin: 0;
 }
 
 .experience-date {
 	font-style: italic;
 	color: rgba(66,66,67,0.5);
-	margin-top: 70px;
 }
 
 .work-position {
