@@ -135,6 +135,10 @@ article h3 {
 	padding: 10px 40px;
 }
 
+section {
+	margin: 50px 0;
+}
+
 .about-me {
 	font-size: 33px;
 	margin-bottom:0;
@@ -147,15 +151,15 @@ span {
 
 .edu-date {
 	display: inline-block;
+	float: left;
 	width: 370px;
-	vertical-align: top;
 	font-weight: bold;
 	color:  #808183;
 }
 
 .information {
 	display: inline-block;
-	width: 1091px;
+	float: right;
 }
 
 .experience-date {
