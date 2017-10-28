@@ -1,7 +1,42 @@
+@font-face {
+font-family: 'CenturyGothic';
+src: url(../fonts/CenturyGothic.ttf) format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'CenturyGothic';
+src: url(../fonts/CenturyGothic-Italic.ttf) format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'CenturyGothic';
+src: url(../fonts/CenturyGothic-Bold.ttf) format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Lato';
+src: url(../fonts/Lato-Regular.ttf) format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'CenturyGothic';
+src: url(../fonts/Lato-Bold.ttf) format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
 body {
 	width: 2551px;
 	background-color: #fff;
-	font: 35px "Century Gothic", Helvetica, Arial, sans-serif;
+	font: 35px "CenturyGothic", Helvetica, Arial, sans-serif;
 	color: rgb(66,66,67);
 	margin: 0;
 	padding: 0;
@@ -60,33 +95,116 @@ aside {
 }
 
 .photo {
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 	display: block;
-}
-
-sections {
-	margin-top: 60px;
-	text-align: left;
 }
 
 h3 {
 	display: inline-block;
-	min-width: 220px; 
+    min-width: 220px;	
 	background-color: #e8c734;
 	font-size: 41px;
 	vertical-align: middle;
 	box-sizing: border-box;
-	padding: 10px 20px;
+	padding: 10px 40px;
+	margin: 50px 0 0 0;
 }
 
-aside div {
+aside p {
 	font-size: 31px;
 }
 
 .chart {
-	padding: 15px 0 25px 0;
+	padding: 15px 0 0px 0;
 }
 
-aside div:last-child{
-	padding-bottom: 0;
+article {
+	display: inline-block;
+	box-sizing: border-box;
+	max-width: 1471px;
+	margin: 0;
+	vertical-align: top;
+	font-size: 35px;
+}
+
+article h3:first-child{
+	margin-top: 0;
+}
+
+article h3 {
+	padding: 10px 40px;
+}
+
+.about-me {
+	font-size: 33px;
+	margin-bottom:0;
+	line-height: 56px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.edu-date {
+	display: inline-block;
+	width: 370px;
+	vertical-align: top;
+	font-weight: bold;
+	color:  #808183;
+}
+
+.information {
+	display: inline-block;
+	width: 1091px;
+}
+
+.experience-date {
+	font-style: italic;
+	color: rgba(66,66,67,0.5);
+	margin-top: 70px;
+}
+
+.work-position {
+	font-weight: bold;
+	margin: 0;
+}
+
+.discription{
+	font-size: 31px;
+	color: rgba(66,66,67,0.5);
+}
+
+.reference {
+	margin-top: 80px;
+}
+
+.reference-data1 {
+	display: inline-block;
+	min-width: 600px;
+}
+.reference-data2 {
+	display: inline-block;
+	float: right;
+	min-width: 600px;
+}
+
+h4 {
+	margin: 30px 0 0 0;
+	font: 39px "Lato", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.reference-data-com {
+	margin: 0;
+}
+
+.reference-data-at {
+	font-size: 31px;
+	color: rgba(66,66,67,0.5);
+	margin: 0;
+}
+
+footer {
+	background-color: #e8c734;
+	height: 70px;
 }
