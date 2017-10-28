@@ -185,11 +185,13 @@ span {
 .reference-data1 {
 	display: inline-block;
 	min-width: 600px;
+	margin: 0;
 }
 .reference-data2 {
 	display: inline-block;
 	float: right;
 	min-width: 600px;
+	margin: 0;
 }
 
 h4 {
