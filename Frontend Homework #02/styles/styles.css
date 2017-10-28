@@ -54,3 +54,39 @@ main {
 	margin: 190px 0 120px 0;
 }
 
+aside {
+	display: inline-block;
+	width: 780px;
+}
+
+.photo {
+	margin: 0 auto;
+	display: block;
+}
+
+sections {
+	margin-top: 60px;
+	text-align: left;
+}
+
+h3 {
+	display: inline-block;
+	min-width: 220px; 
+	background-color: #e8c734;
+	font-size: 41px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: 10px 20px;
+}
+
+aside div {
+	font-size: 31px;
+}
+
+.chart {
+	padding: 15px 0 25px 0;
+}
+
+aside div:last-child{
+	padding-bottom: 0;
+}
