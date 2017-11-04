@@ -29,7 +29,7 @@ font-style: normal;
 @font-face {
 font-family: 'CenturyGothic';
 src: url(../fonts/Lato-Bold.ttf) format('truetype');
-font-weight: bold;
+font-weight: 700;
 font-style: normal;
 }
 
@@ -46,14 +46,14 @@ body {
 	margin: 200px 145px 0 145px;
 }
 
-h1 {
+.header__my-name {
 	font-size: 91px;
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
 }
 
-h2 {
+.header__my-prof {
 	font-size: 50px;
 	margin: 0;
 	padding: 0;
@@ -61,45 +61,45 @@ h2 {
 
 .my-data {
 	font-size: 31px;
-	color: rgba(66,66,67,0.5);
+	color: #cacaca;
 	margin-top: 55px;
 }
 
-ul {
+.my-data__contacts{
 	list-style: none;
 	padding-left: 0;
 	margin: 0;
 }
 
-li {
+.contacts__contact {
 	display: inline-block;
-	border-right: 5px solid rgba(66,66,67,0.5);
+	border-right: 5px solid #cacaca;
 	padding: 0 20px;
 }
 
-li:last-child{
+.contacts__contact:last-child{
 	border-right: none;
 }
 
-li:first-child{
+.contacts__contact:first-child{
 	padding-left: 0;
 }
 
-main {
+.main {
 	margin: 190px 0 120px 0;
 }
 
-aside {
+.column {
 	display: inline-block;
 	width: 780px;
 }
 
-.photo {
+.column__photo {
 	margin: 0 auto 20px auto;
 	display: block;
 }
 
-h3 {
+.heading {
 	display: inline-block;
     min-width: 220px;	
 	background-color: #e8c734;
@@ -110,112 +110,132 @@ h3 {
 	margin: 50px 0 0 0;
 }
 
-aside p {
+.skills{
+	margin-top: 60px;;
+}
+
+.skills__skill{
 	font-size: 31px;
+	margin-top: 30px;;
 }
 
-.chart {
-	padding: 15px 0 0px 0;
+.ability__chart-e {
+	height: 25px;
+	width: 620px;
+	border: 5px solid #e4e4e5;
+	margin-top: 13px;
 }
 
-article {
+.ability__chart-f {
+	height: 25px;
+	background-color: #bbbcbe;
+}
+
+.ability__chart_all_x {
+	width: 500px;
+}
+
+.ability__chart_all_d {
+	width: 430px;
+}
+
+.ability__chart_all_n {
+	width: 370px;
+}
+
+.main-content {
 	display: inline-block;
 	box-sizing: border-box;
 	max-width: 1471px;
 	margin: 0;
 	vertical-align: top;
-	font-size: 35px;
 }
 
-article h3:first-child{
-	margin-top: 0;
+.heading{
+	margin: 0;
 }
 
-article h3 {
-	padding: 10px 40px;
-}
-
-section {
-	margin: 50px 0;
-	
-}
 
 .about-me {
+	padding: 0;
+	margin: 0 0 45px 0;
+}
+
+.about-me__text {
 	font-size: 33px;
-	margin-bottom:0;
+	margin-top: 50px;
 	line-height: 56px;
 }
 
-span {
-	font-weight: bold;
+.I-am, .edu__information_spec{
+	font-weight: 700;
 }
 
 .edu {
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
-.edu-date {
+.edu__date {
 	display: inline-block;
 	vertical-align: top;
 	width: 370px;
 	font-weight: bold;
 	color:  #808183;
-	margin: 0;
 }
 
-.edu-information {
+.edu__information {
 	display: inline-block;
-	margin: 0;
 }
 
-.experience-date {
+.experience{
+	margin-top: 60px;	
+	margin-bottom: 100px;
+}
+
+.experience__date {
+	margin: 20px 0 35px 0;
 	font-style: italic;
-	color: rgba(66,66,67,0.5);
+	color: #b6b6b6;
 }
 
-.work-position {
-	font-weight: bold;
-	margin: 0;
+.experience__position {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 35px;
 }
 
-.discription{
+.experience__description{
+	margin-top: 40px;
 	font-size: 31px;
-	color: rgba(66,66,67,0.5);
+	color: #cacaca;
 }
 
 .reference {
 	margin-top: 80px;
 }
 
-.reference-data1 {
+.ref-data {
 	display: inline-block;
-	min-width: 600px;
-	margin: 0;
-}
-.reference-data2 {
-	display: inline-block;
-	float: right;
-	min-width: 600px;
-	margin: 0;
+	min-width: 480px;
 }
 
-h4 {
+.ref-data_first{
+	margin-right: 400px;
+}
+
+.ref-data__name {
 	margin: 30px 0 0 0;
 	font: 39px "Lato", Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-weight: 700;
 }
 
-.reference-data-com {
-	margin: 0;
-}
-
-.reference-data-at {
+.ref-data__at {
 	font-size: 31px;
-	color: rgba(66,66,67,0.5);
-	margin: 0;
+	color: #cacaca;
+	padding: 0;
 }
 
-footer {
+.footer {
 	background-color: #e8c734;
 	height: 70px;
 }
