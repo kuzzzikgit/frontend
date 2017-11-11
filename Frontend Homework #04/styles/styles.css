@@ -1,0 +1,233 @@
+body {
+	width: 2551px;
+	background-color: #fff;
+	font: 35px "CenturyGothic", Helvetica, Arial, sans-serif;
+	color: #1a1a1a;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.content  {
+	margin: 0 145px;
+}
+
+.header {
+	margin: 200px 0 120px 0;
+}
+
+.header__my-name {
+	font-size: 91px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.header__my-prof {
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.my-data {
+	font-size: 31px;
+	color: #8c8c8c;
+	margin-top: 55px;
+}
+
+.my-data__contacts{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.contacts__contact {
+	display: inline-block;
+	border-right: 5px solid #cacaca;
+	padding: 0 20px;
+}
+
+.contacts__contact a{
+	text-decoration: none;
+	color: inherit;;
+}
+
+.contacts__contact:last-child{
+	border-right: none;
+}
+
+.contacts__contact:first-child{
+	padding-left: 0;
+}
+
+.partition {
+  width: 100%;
+  background: #e4e5e6;
+  height: 3px;
+}
+
+.content__main {
+	margin: 70px 0 120px 0;
+}
+
+.content__left {
+	display: inline-block;
+	width: 780px;
+}
+
+.content__left_photo {
+	margin: 0 auto 20px auto;
+	display: block;
+}
+
+.content-about-me__heading_I, .content-about-me__heading_edu, .content-about-me__heading_experience, .content-skills__heading, .content-reference__heading {
+	display: inline-block;
+    min-width: 220px;	
+	background-color: #e8c734;
+	font-size: 41px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: 10px 40px;
+	margin: 50px 0 0 0;
+}
+
+.content-about-me__heading_I {
+	margin: 0;
+}
+
+.content-skills{
+	margin-top: 60px;;
+}
+
+.content-skills__skill{
+	font-size: 31px;
+	margin-top: 30px;;
+}
+
+.ability__chart {
+	height: 25px;
+	width: 620px;
+	border: 5px solid #e4e4e5;
+	margin-top: 13px;
+}
+
+.ability__chart:after {
+	content: "";
+	display: block;
+	height: 28px;
+	background: #bcbdc0;
+	position: relative;
+	top: -2px;
+	left: -2px;
+}
+
+.ability__chart_progress_80:after {
+	width: 80%;
+}
+
+.ability__chart_progress_70:after {
+	width: 70%;
+}
+
+.ability__chart_progress_60:after {
+	width: 60%;
+}
+
+.content__right {
+	display: inline-block;
+	box-sizing: border-box;
+	max-width: 1470px;
+	margin: 0;
+	vertical-align: top;
+}
+
+.content-about-me {
+	padding: 0;
+}
+
+.content-about-me__text {
+	font-size: 33px;
+	margin-top: 50px;
+	line-height: 56px;
+}
+
+.content-about-me__text_I-am, .content-edu__information_spec{
+	font-weight: 700;
+}
+
+.content-edu {
+	margin-top: 80px;
+}
+
+.content-edu__date {
+	display: inline-block;
+	vertical-align: top;
+	width: 370px;
+	font-weight: bold;
+	color:  #808183;
+}
+
+.content-edu__information {
+	display: inline-block;
+}
+
+.content-experience{
+	margin-top: 60px;	
+	margin-bottom: 100px;
+}
+
+.content-experience__date {
+	margin: 20px 0 35px 0;
+	font-style: italic;
+	color: #b6b6b6;
+}
+
+.content-experience__position {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.content-experience a {
+	text-decoration: none;
+    color: inherit;
+}
+
+.content-experience__description{
+	margin-top: 40px;
+	font-size: 31px;
+	color: #9d9fa2;
+}
+
+.content-reference {
+	margin-top: 80px;
+}
+
+.content-reference-data {
+	display: inline-block;
+	min-width: 480px;
+}
+
+.content-reference-data_first{
+	margin-right: 400px;
+}
+
+.content-reference-data__name {
+	margin: 30px 0 0 0;
+	font-weight: 700;
+}
+
+.content-reference-data__at {
+	font-size: 31px;
+	color: #9d9fa2;
+	padding: 0;
+}
+
+.content-reference-data__at a {
+	text-decoration: none;
+    color: inherit;
+}
+
+.content-footer {
+	background-color: #e8c734;
+	height: 70px;
+}
